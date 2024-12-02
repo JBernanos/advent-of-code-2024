@@ -1,8 +1,8 @@
 import * as fs from "fs";
 
 export default (): void => {
-  console.log(`Part one result: ${partOne()}`);
-  console.log(`Part two result: ${partTwo()}`);
+  console.log(`[Puzzle 1] - Part one result: ${partOne()}`);
+  console.log(`[Puzzle 1] - Part two result: ${partTwo()}`);
 };
 
 function handleInput(): number[][] {
